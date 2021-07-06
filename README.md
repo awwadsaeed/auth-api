@@ -4,6 +4,6 @@ fully authinticated api server.
 ## LINKS:
 - [heroku link](https://auth-api-lab8.herokuapp.com/)
 - [github action](https://github.com/awwadsaeed/auth-api/actions)
-- [pull request](https://github.com/awwadsaeed/auth-api/pull/3)
+- [pull request](https://github.com/awwadsaeed/auth-api/pull/4)
 ## UML:  
 ![whiteboard](./whiteboard.JPG)
