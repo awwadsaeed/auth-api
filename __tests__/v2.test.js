@@ -2,7 +2,8 @@ const supergoose = require('@code-fellows/supergoose');
 const server = require('../src/server');
 const request = supergoose(server.server);
 const bcrypt = require('bcrypt');
-process.env.SECRET = 'secret';
+require('dotenv').config();
+
 let users = {
     admin: { username: 'admin', password: 'password', role: 'admin' },
     editor: { username: 'editor', password: 'password', role: 'editor' },
